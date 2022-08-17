@@ -1,0 +1,12 @@
+# Editor's folders
+/.vscode
+/.vs
+
+# Qt
+/release
+/debug
+*.Release
+*.Debug
+Makefile*
+/.qmake.stash
+/.qmake.cashe
