@@ -54,6 +54,6 @@ void MainWindow::composeWidgets()
 
 void MainWindow::connectWidgets()
 {
-    QObject::connect(m_inputLineEdit, QLineEdit::textChanged,
-                     m_funnyLabel, FunnyLabel::setText);
+    QObject::connect(m_inputLineEdit, &QLineEdit::textChanged,
+                     m_funnyLabel, &FunnyLabel::setText);
 }
